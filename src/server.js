@@ -1,6 +1,6 @@
 require("dotenv").config();
 const app = require("./app");
-const pool = require("./config/db");
+const pool = require("./config/Db");
 const { createTable } = require("./models/profileModel");
 
 const PORT = process.env.PORT || 5000;
